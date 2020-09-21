@@ -316,7 +316,7 @@ public class LocationManager extends CordovaPlugin implements BeaconConsumer {
                 return;
             }
 
-            try {
+            /*try {
                 requestPermissionsMethod.invoke(activity,
                         new String[]{Manifest.permission.ACCESS_COARSE_LOCATION},
                         PERMISSION_REQUEST_COARSE_LOCATION
@@ -327,7 +327,7 @@ public class LocationManager extends CordovaPlugin implements BeaconConsumer {
             } catch (InvocationTargetException e) {
                 Log.e(TAG, "InvocationTargetException while requesting permission for " +
                         "ACCESS_COARSE_LOCATION:", e);
-            }
+            }*/
 
             /*final AlertDialog.Builder builder = new AlertDialog.Builder(activity);
             builder.setTitle("This app needs location access");
